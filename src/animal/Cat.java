@@ -2,8 +2,8 @@ package animal;
 
 public class Cat extends Animal {
 
-    public Cat (int age) {
-        super(age);
+    public Cat (int age, String name) {
+        super(age, name);
         System.out.println("A cat has entered the room.");
     }
 
